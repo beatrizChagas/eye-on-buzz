@@ -7,13 +7,15 @@
 //
 
 class Genre {
-    
+
     let identifier: Int
     let name: String
+    	
     
     init(_ genreInfo: Dictionary<String, Any>) {
         self.identifier = genreInfo["id"] as! Int
         self.name = genreInfo["name"] as! String
     }
-    
+
 }
+
